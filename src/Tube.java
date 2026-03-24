@@ -1,4 +1,3 @@
-public class Tube {
-    public
+public class Tube extends Human{
 
 }
