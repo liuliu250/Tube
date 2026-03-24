@@ -1,8 +1,8 @@
 # FREE EDITION OF TUBE IS NOW ACCESSIBLE!!!
 
-![happywedding](https://github.com/user-attachments/assets/52397749-473a-4438-ae74-189a6cfe99c1)  $ \Longrightarrow $  <img width="224" height="299" alt="costume" src="https://github.com/user-attachments/assets/82429dd9-2c5f-4056-b410-3155d89124f6" />
+![happywedding](https://github.com/user-attachments/assets/52397749-473a-4438-ae74-189a6cfe99c1)    <img width="224" height="299" alt="costume" src="https://github.com/user-attachments/assets/82429dd9-2c5f-4056-b410-3155d89124f6" />
 
-*This is Anclain,he is cute*      *This is Anclaw,it is a failure*
+*This is Anclain,he is cute*   $ \Longrightarrow $   *This is Anclaw,it is a failure*
 
 ---
 ## **chat chart** 
