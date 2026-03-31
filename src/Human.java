@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.Nullable;
+
 import static java.lang.Math.abs;
 
 public class Human {
@@ -8,6 +10,9 @@ public class Human {
     public Place School;
     public boolean isMale;
     public boolean isMarried;
+
+    @Nullable
+    public Buff buff;
 
     public Game favGame;
 

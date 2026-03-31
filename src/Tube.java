@@ -15,7 +15,14 @@ public class Tube extends Human implements DoLove{
     @Override
     public void givePresent(Human human) {
         if (!human.isMale && !human.isMarried) {
-
+            boolean isSameInterest = Utils.hasSameItemInList("Pastel*Palettes", human.favGame.goods);
+            if (isSameInterest) {
+                System.out.println("水管送了冰川日菜给"+human.name);
+            } else {
+                System.out.println("水管送了一个"+Game.HeartsOfIronIV+"给"+human.name);
+            }
+        } else {
+            System.out.println("水管送礼物被拒绝了");
         }
     }
 
@@ -23,12 +30,12 @@ public class Tube extends Human implements DoLove{
     public void doLove(Human human) {
         if (this.School.isDoLovable && !this.isMarried) {
             if (this.getLength() >= human.getLength()) {
-                System.out.println("水管和" + human.name + "谈恋爱了");
+                System.out.println("水管和" + human.name + "做了");
             } else {
                 System.out.println("水管觉得" + human.name + "不够配");
             }
         } else {
-            System.out.println("水管不想谈恋爱了");
+            System.out.println("水管不想做爱了");
         }
     }
 }
