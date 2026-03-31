@@ -11,6 +11,7 @@ public class Game {
         this.goods = new String[]{goods};
     }
 
-    public Game BangDream = new Game("BanG Dream!", "节奏游戏", );
+    public Game BangDream = new Game("BanG Dream!", "节奏游戏", "冰川日菜");
+    public Game Arknights = new Game("明日方舟", "塔防游戏", "能天使");
 
 }
