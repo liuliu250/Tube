@@ -1,3 +1,5 @@
+import static java.lang.Math.abs;
+
 public class Human {
 
     public String name;
@@ -7,12 +9,19 @@ public class Human {
     public boolean isMale;
     public boolean isMarried;
 
-    public Human(String name, int age, Place School, boolean isMale, boolean isMarried) {
+    public Game favGame;
+
+    public Human(String name, int age, Place School, boolean isMale, boolean isMarried, Game favGame) {
         this.name = name;
         this.age = age;
         this.School = School;
         this.isMale = isMale;
         this.isMarried = isMarried;
+        this.favGame = favGame;
+    }
+
+    public float getLength() {
+        return 7.0f + abs(hashCode() % 10);
     }
 
 }

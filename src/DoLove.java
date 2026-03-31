@@ -1,6 +1,6 @@
 public interface DoLove {
 
     public void givePresent(Human human);
-    public void doLove();
+    public void doLove(Human human);
 
 }
